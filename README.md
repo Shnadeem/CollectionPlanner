@@ -1,4 +1,4 @@
-# 📅 Action Date Generator (Single-File Version)
+# 📅 Action Date Generator
 
 This script computes **customer action dates** based on a base date (26th of the month), offset rules, and business day exceptions. It outputs the results to both the terminal and an HTML report.
 
