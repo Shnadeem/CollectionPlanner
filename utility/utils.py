@@ -114,8 +114,8 @@ th {{ background: #333; color: #fff; }}
 <p style="font-size: 13px; color: #555;">
 Regards,<br>
 <strong>Action Planner Bot</strong><br>
-Billing Admin Automation Team<br>
-<a href="mailto:support@example.com.sa">shahabuddin.nadeem@emobily.com.sa</a>
+Collection Automation Team<br>
+<a href="mailto:support@example.com.sa">Sample@sample.com</a>
 </p>
 </body></html>""")
 
