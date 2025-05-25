@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-import argparse
-import datetime
-import sys
-import html
-from collections import OrderedDict
+
 from utility.utils import add_days_fixed_30, get_base_date, generate_html, adjust_date,should_skip_adjustment, print_console_table, parse_args, ACTIONS
 
 # --- Main ---

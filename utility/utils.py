@@ -1,11 +1,9 @@
 import argparse
 import datetime
-import sys
 import html
-from collections import OrderedDict
 
 ## Constants
-BASE_DAY = 26    ## Aroung this date, all the actions will be generated
+BASE_DAY = 26    ## Around this date, all the actions will be generated
 HOLIDAYS = ["2025-06-05", "2025-06-08", "2025-06-09","2025-06-10","2025-06-11","2025-06-12"]
 ACTIONS = {
     "PD Call-1": -17,
@@ -38,6 +36,7 @@ def get_base_date(use_next_month):
     return datetime.date(year, month, BASE_DAY)
 
 ## This function will make all 12 months with 30 days
+## Any date, which is not following that will be modified
 def add_days_fixed_30(base_date, offset):
     day = base_date.day + offset
     month = base_date.month
